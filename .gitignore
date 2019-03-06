@@ -108,3 +108,4 @@ venv.bak/
 /.idea/
 /.flaskenv
 /app.db
+/logs/
