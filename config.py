@@ -17,3 +17,4 @@ class Config(object):
     ADMINS = [os.environ.get('ADMIN_EMAIL')]
     POSTS_PER_PAGE = 25
     LANGUAGES = ['en', 'ru']
+    YANDEX_TRANSLATOR_KEY = os.environ.get('YANDEX_TRANSLATOR_KEY')
